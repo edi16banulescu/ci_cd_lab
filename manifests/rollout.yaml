@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/edi16banulescu/ci_cd_lab:latest
+          image: ghcr.io/edi16banulescu/ci_cd_lab@sha256:asdasd
       ports:
         - containerPort: 8080
       imagePullPolicy: Always
